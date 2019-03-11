@@ -17,7 +17,7 @@ public void setup(){
 
 public void draw(){
   update();
-  //println(frameRate);
+  println(frameRate);
 }
 
 public void init() {
