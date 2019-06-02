@@ -7,3 +7,5 @@ application.linux64
 application.windows32
 application.windows64
 application.macosx
+application.windows64.zip
+application.windows32.zip
