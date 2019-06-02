@@ -57,6 +57,7 @@ public class Game {
     pauseMenu = true;
     fader.fadeInstant();
     mainTheme = new Music("MainSong");
+    mainTheme.setVolume(0.5);
   }
   
   void initObjects() {

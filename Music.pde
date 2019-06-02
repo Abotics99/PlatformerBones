@@ -20,6 +20,7 @@ public class Music {
       music.stop();
     }
     music.cue(0);
+    music.amp(volume);
     music.play();
   }
   
@@ -35,6 +36,11 @@ public class Music {
     posX = x;
     posY = y;
     play();
+  }
+  
+  public void setVolume(float vol){
+    music.amp(vol);
+    volume = vol;
   }
 
   public void stop() {
